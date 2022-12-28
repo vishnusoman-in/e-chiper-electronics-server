@@ -1,6 +1,6 @@
 import express from "express";
 
-import { getProductlistbycat, getProductlistbyid, getProductlistbyname, getProductlistfull, deleteProduct } from "../controllers/Productlist.js";
+import { getProductlistbycat, getProductlistbyid, getProductlistbyname, getProductlistfull, deleteProduct } from "../controllers/productlist.js";
 import { verifyToken } from "../middleware/jwtauth.js";
 const router = express.Router();
 
